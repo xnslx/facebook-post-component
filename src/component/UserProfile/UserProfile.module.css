@@ -1,0 +1,20 @@
+.Container {
+    width: 600px;
+    height: 64px;
+    background-color: white;
+}
+
+.Avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    top: 12%;
+    left: 1%;
+}
+
+.Avatar img {
+    height: 60px;
+    width: auto;
+}

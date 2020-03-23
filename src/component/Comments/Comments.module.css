@@ -1,0 +1,43 @@
+.Comments {
+    /* background-color: green; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    bottom: -340px;
+}
+
+.Avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    top: 12%;
+    left: 1%;
+    display: inline-block;
+}
+
+.Avatar img {
+    height: 60px;
+    width: auto;
+}
+
+.Input {
+    padding-left: 16px;
+    margin-left: 16px;
+    margin-right: 24px;
+    display: inline-block;
+    border-radius: 48px;
+    height: 40px;
+    width: 90%;
+    border-style: none;
+    box-shadow: 10px 10px 52px 0px rgba(0, 0, 0, 0.05);
+}
+
+.show {
+    display: block;
+}
+
+.close {
+    display: none;
+}
